@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.a {
+    text-decoration: none;
+}
+
+body {
+    background-image: url(/assets/186d0dd44e1beb122e2d327f726bc6a0.jpg);
+    background-color: #31263A;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: #31263A;
+}

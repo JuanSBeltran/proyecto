@@ -1,0 +1,47 @@
+.checkbox, .icons  {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+}
+
+.checkbox {
+    opacity: 0;
+}
+
+.icons {
+    pointer-events: none;
+    font-size: 24px;
+    padding: 10px;
+    color: white;
+}
+
+.fi-br-cross {
+    display: none;
+}
+
+.checkbox:checked ~ .fi-br-cross {
+    display: block;
+}
+
+.checkbox:checked ~ .fi-br-menu-burger {
+    display: none;
+}
+
+.menu {
+    width: 200px;
+    position: absolute;
+    top: -88px;
+    z-index: -1;
+    transition: 250ms;
+}
+
+.checkbox:checked ~ .menu {
+    top: 68px;
+}
+
+.checkbox:checked ~ .menu {
+    top: 68px;
+}
+

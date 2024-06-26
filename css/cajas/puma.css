@@ -1,0 +1,19 @@
+.header__puma h1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.header__puma p {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.tenis {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+.tenis img {
+    width: 300px;
+}

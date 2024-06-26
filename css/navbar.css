@@ -1,0 +1,35 @@
+.navbar {
+    background: linear-gradient(to right, #543B7D, #6E677A);;
+    height: 48px;
+    padding: 10px 12px;
+    position: relative;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #000;
+    background-color: #eeecf1;
+    display: block;
+    padding: 10px;
+}
+
+.navbar li a:hover {
+    background-color: #543a7d;
+}
+
+.navbar h1  {
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.navbar h1 a {
+    text-decoration: none;
+    color: #fff;
+}
+
